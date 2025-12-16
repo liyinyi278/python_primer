@@ -29,7 +29,7 @@ for dimension in dimensions:
 my_t = (3,)
 print(my_t)
 
-# 列表一样，也可以使用 for 循环来遍历元组中的所有值：
+# 元组和列表一样，也可以使用 for 循环来遍历元组中的所有值：
 dimensions = (200, 50)
 for dimension in dimensions:
     print(dimension)

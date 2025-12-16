@@ -16,9 +16,9 @@ print(motorcycles)
 del motorcycles[1]
 print(motorcycles)
 
-popped_motorcycle = motorcycles.pop()
+poped_motorcycle = motorcycles.pop()
 print(motorcycles)
-print(popped_motorcycle)
+print(poped_motorcycle)
 
 print(motorcycles.pop(1))
 print(motorcycles)
