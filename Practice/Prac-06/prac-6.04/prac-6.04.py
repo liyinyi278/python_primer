@@ -14,3 +14,13 @@ vocab = {
 
 for key, value in vocab.items():
     print(key + "\n\t", value)
+
+vocab["int()"] = "整数"
+vocab["float()"] = "浮点数"
+vocab["str()"] = "字符串"
+vocab["bool()"] = "布尔值"
+vocab["list()"] = "列表"
+
+print("\n\n")
+for key, value in vocab.items():
+    print(key + "\n\t", value)

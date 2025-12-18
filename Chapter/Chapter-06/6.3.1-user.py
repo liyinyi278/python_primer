@@ -2,7 +2,7 @@ user_0 = {
     'username': 'efermi',
     'first': 'enrico',
     'last': 'fermi',
-}
+    }
 print (user_0)
 
 # Python 支持对字典进行遍历，字典可用于以各种方式存储信息。

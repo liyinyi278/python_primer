@@ -4,7 +4,7 @@
 #   该字典应包含键 first_name、last_name、age 和city。
 #   将存储在该字典中的每项信息都打印出来。
 
-person = {'first_name': 'Jimi', 'last_name': 'Hendrix', 'age': 27, 'country': 'USA'}
+person = {'first_name': 'Jimi', 'last_name': 'Hendrix', 'age': 27, 'city': 'Seattle'}
 
 for key, value in person.items():
     print(f"{key}: {value}")

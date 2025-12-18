@@ -19,6 +19,7 @@ print(f"You just earned {new_points} points!")
 
 # 字典是一种动态结构，可随时在其中添加键值对。
 # 要添加键值对，可依次指定字典名、用方括号括起来的键和与该键关联的值。
+print()
 alien_0['x_position'] = 0
 alien_0['y_position'] = 25
 print(alien_0)
@@ -29,6 +30,7 @@ print(alien_0)
 
 # 有时候，在空字典中添加键值对很方便，甚至是必需的。
 # 为此，可先使用一对空花括号定义一个空字典，再分行添加各个键值对。
+print()
 alien_0 = {}
 alien_0['color'] = 'green'
 alien_0['points'] = 5
@@ -36,10 +38,12 @@ print(alien_0)
 
 # 要修改字典中的值，可依次指定字典名、
 # 用方括号括起来的键和与该键关联的新值。
+print()
 alien_0['color'] = 'yellow'
 print(f"The alien is now {alien_0['color']}.")
 
 # 例子：对一个能够以不同速度移动的外星人进行位置跟踪。
+print()
 alien_0 = {'x_position': 0, 'y_position': 25, 'speed': 'medium'}
 print(f"Original position: {alien_0['x_position']}")
 
@@ -60,9 +64,11 @@ print(f"New position: {alien_0['x_position']}")
 # 对于字典中不再需要的信息，
 # 可使用 del 语句将相应的键值对彻底删除。
 # 在使用 del 语句时，必须指定字典名和要删除的键。
+print()
 alien_0 = {'color': 'green', 'points': 5}
 print(alien_0)
 
 # 注意：删除的键值对永远消失了。
+print("\nDeleting points")
 del alien_0['points']
 print(alien_0)

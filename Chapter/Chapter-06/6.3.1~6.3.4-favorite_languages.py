@@ -15,10 +15,12 @@ favorite_languages = {
 # 使用字典时，可访问其中的任何信息。下面来访问 Phil 最喜欢的语言。
 print("Phil's favorite language is " + favorite_languages['phil'].title() + ".")
 
+print()
 for name, language in favorite_languages.items():
     print(name.title() + "'s favorite language is " + language.title() + ".")
 
 # 在不需要使用字典中的值时，keys() 方法很有用。
+print()
 for name in favorite_languages.keys():
     print(name.title())
 
@@ -29,6 +31,7 @@ for name in favorite_languages.keys():
 # 输出将不变。
 
 # 在这种循环中，可使用当前的键来访问与之关联的值。
+print()
 friends = ['phil', 'sarah']
 for name in favorite_languages.keys():
     print(name.title())
@@ -37,25 +40,30 @@ for name in favorite_languages.keys():
         print("  Hi " + name.title() + ", I see your love " + language)
 
 # 还可以使用 keys() 确定某个人是否接受了调查。
+print()
 if 'erin' not in favorite_languages.keys():
     print("Erin, please take our poll!")
 
 # 遍历字典时将按插入元素的顺序返回其中的元素，
 # 但是在一些情况下，你可能要按与此不同的顺序遍历字典。
+print()
 for name in sorted(favorite_languages.keys()):
     print(name.title() + ", thank you for taking the poll.")
 
 # 如果你感兴趣的是字典包含的值，可使用 values() 方法。
+print()
 print("The following languages have been mentioned:")
 for language in favorite_languages.values():
     print(language.title())
 
 # 以上做法提取字典中所有的值，而没有考虑值是否有重复。要消除重复项，可使用 set() 。
+print()
 print("The following languages have been mentioned:")
 for language in set(favorite_languages.values()):
     print(language.title())
 
 # 注意：可以使用一对花括号直接创建集合，并在其中用逗号分隔元素
+print()
 languages = {'python', 'rust', 'python', 'c'}
 print(languages)
 
