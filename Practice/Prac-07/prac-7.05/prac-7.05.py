@@ -8,7 +8,7 @@
 message = ""
 
 while message != 'quit':
-    age = input("How old are you? ")
+    age = input("How old are you? (Enter 'quit' to end)")
     if age != 'quit':
         if age.isalpha():
             print("Please enter a number.")

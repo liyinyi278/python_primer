@@ -5,7 +5,7 @@
 burdening = ""
 
 while burdening != 'quit':
-    burdening = input("What is your burdening? ")
+    burdening = input("What is your burdening? (Enter 'quit' to end)")
     if burdening != 'quit':
         print(burdening)
     else:
